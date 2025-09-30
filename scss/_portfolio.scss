@@ -1,0 +1,92 @@
+.portfolio__menu{
+   margin-bottom: 60px;
+   button{
+      background: var(--white);
+      box-shadow: 0px 0px 20px rgba(39, 47, 251, 0.1);
+      border-radius: 24px;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 1.5;
+      color: var(--black-1);
+      padding: 10px 30px;
+      display: inline-block;
+      margin-right: 30px;
+      border: 0;
+      transition: .3s;
+      span{
+         position: relative;
+         top: -10px;
+         font-weight: 500;
+         font-size: 10px;
+         line-height: 13px;
+         color: #999999;
+      }
+      &:hover{
+         background-color: #FF6572;
+         color: var(--white);
+      }
+      @include mq(sm){
+         font-size: 14px;
+         padding: 8px 15px;
+         margin-bottom: 5px;
+      }
+      &.active{
+         background-color: #FF6572;
+         color: var(--white);
+      }
+      &:last-child{
+         margin-right: 0;
+      }
+   }
+}
+.portfolio{
+   margin-right: 24px;
+   position: relative;
+   margin-bottom: 24px;
+   overflow: hidden;
+   &:hover{
+      .portfolio__text{
+         transform: translateX(0);
+      }
+   }
+}
+.portfolio__text{
+   position: absolute;
+   left: 0;
+   bottom: 24px;
+   transform: translateX(-100%);
+   transition: .3s;
+   h4{
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.2;
+      color: var(--white);
+      background-color: var(--secondary);
+      padding: 8px 20px;
+      border-radius: 0px 10px 0px 0px;
+      margin-bottom: 0;
+   }
+   span{
+      display: inline-block;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 21px;
+      padding: 12px 30px;
+      border-radius: 0px 10px 10px 0px;
+      background-color: var(--black-1);
+      color: var(--white);
+   }
+}
+
+.karti__brand-item {
+   display: grid;
+   grid-template-columns: repeat(7, 1fr);
+   grid-gap: 24px;
+   padding: 30px 0;
+   @include mq(sm){
+      grid-template-columns: repeat(1, 1fr);
+   }
+}
+.gray-paragraph{
+   color: #999999;
+}

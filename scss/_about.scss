@@ -1,0 +1,109 @@
+.bijoy{
+   &__about{
+      background-color: #FFF3F4;
+      padding: 120px 0;
+      position: relative;
+      overflow: hidden;
+      @include mq(sm){
+         padding: 50px 0;
+      }
+      z-index: 3;
+      &-wrapper{
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+         grid-gap: 24px;
+         @include mq(xl-1){
+            grid-template-columns: .5fr 1fr;
+         }
+         @include mq(xl){
+            grid-template-columns: .5fr 1fr;
+         }
+         @include mq(md){
+            grid-template-columns: auto;
+         }
+
+      }
+      &-right{
+         h2{
+            color: var(--black-1);
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 1.5;
+            @include mq(sm){
+               font-size: 30px;
+            }
+            span{
+               color: #FFC700;
+            }
+         }
+         h3{
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 1.5;
+            color: var(--black-3);
+            @include mq(sm){
+               font-size: 18px;
+            }
+         }
+         p{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1.5;
+            color: var(--gray-4);
+         }
+      }
+      &-e1{
+         position: absolute;
+         left: 0;
+         top: 0;
+         z-index: -1;
+         opacity: .6;
+      }
+      &-e2{
+         position: absolute;
+         left: 10%;
+         top: 0;
+         z-index: -1;
+         opacity: .6;
+      }
+      &-list{
+         display: flex;
+         flex-wrap: wrap;
+         grid-gap: 24px;
+         padding-top: 20px;
+         margin-bottom: 30px;
+         li{
+            display: inline-block;
+            flex-basis: 48%;
+            padding: 20px;
+            background-color: var(--white);
+            display: flex;
+            align-items: center;
+            font-weight: 400;
+            font-size: 19px;
+            line-height: 1.5;
+            color: #222222;
+            @include mq(sm){
+               flex-basis: 100%;
+            }
+            span{
+               display: inline-block;
+               width: 40px;
+               height: 40px;
+               border-radius: 50%;
+               margin-right: 10px;
+            }
+         }
+      }
+   }
+}
+.stitle{
+   display: inline-block;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 1.5;
+   color: var(--secondary);
+   background-color: #FFE7E9;
+   padding: 10px 30px;
+   border-radius: 25px;
+}

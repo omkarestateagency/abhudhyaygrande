@@ -1,0 +1,78 @@
+.bijoy{
+   &__resume{
+      padding: 120px 0;
+      @include mq(sm){
+         padding: 50px 0;
+      }
+      &-wrapper{}
+      &-item{
+         position: relative;
+         background: var(--white);
+         box-shadow: 0px 0px 30px rgba(19, 52, 168, 0.1);
+         border-radius: 15px;
+         padding: 30px 0 30px 30px;
+         @include mq(sm){
+            margin-bottom: 30px;
+         }
+         &:hover{
+            &::before{
+               background-color: var(--secondary);
+            } 
+         }
+         &::before{
+            content: "";
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: 100px;
+            height: 100px;
+            border-radius: 100px 0px 0px 0px;
+            background: #FFE7E9;
+            transition: .3s;
+         }
+         h3{
+            font-weight: 700;
+            font-size: 32px;
+            line-height: .9;
+            margin-bottom: 25px;
+         }
+         p{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1.5;
+            color: var(--gray-4);
+            max-width: 356px;
+         }
+      }
+      &-footer{
+         display: flex;
+         justify-content: space-between;
+         padding-top: 20px;
+         align-items: center;
+         span{
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 1.5;
+            color: var(--secondary);
+            align-self: self-end;
+         }
+         img{
+            padding-right: 10px;
+            position: relative;
+            z-index: 2;
+            width: 60px;
+            height: 60px;
+            top: 14px;
+         }
+      }
+   }
+}
+.bijoy__brand-item{
+   padding: 30px 0;
+   img{
+      transition: .3s;
+      &:hover{
+         transform: scale(1.2);
+      }
+   }
+}
