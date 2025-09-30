@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f9f9f9" rx="10" ry="10"/>
+  
+  <!-- Family illustration -->
+  <g>
+    <!-- Father -->
+    <g transform="translate(150, 120)">
+      <!-- Body -->
+      <rect x="-20" y="30" width="40" height="60" rx="10" ry="10" fill="#2f6690"/>
+      <!-- Head -->
+      <circle cx="0" cy="15" r="20" fill="#ffcc99"/>
+      <!-- Hair -->
+      <path d="M-25,0 Q0,-20 25,0 L25,5 Q0,-5 -25,5 Z" fill="#333333"/>
+      <!-- Arms -->
+      <line x1="-20" y1="50" x2="-40" y2="40" stroke="#ffcc99" stroke-width="10" stroke-linecap="round"/>
+      <line x1="20" y1="50" x2="40" y2="40" stroke="#ffcc99" stroke-width="10" stroke-linecap="round"/>
+      <!-- Legs -->
+      <line x1="-10" y1="90" x2="-15" y2="120" stroke="#333333" stroke-width="8" stroke-linecap="round"/>
+      <line x1="10" y1="90" x2="15" y2="120" stroke="#333333" stroke-width="8" stroke-linecap="round"/>
+      <!-- Smile -->
+      <path d="M-10,25 Q0,35 10,25" fill="none" stroke="#000000" stroke-width="2"/>
+      <!-- Eyes -->
+      <circle cx="-7" cy="10" r="3" fill="#000000"/>
+      <circle cx="7" cy="10" r="3" fill="#000000"/>
+    </g>
+    
+    <!-- Mother -->
+    <g transform="translate(220, 120)">
+      <!-- Body -->
+      <rect x="-20" y="30" width="40" height="60" rx="15" ry="15" fill="#c94c4c"/>
+      <!-- Head -->
+      <circle cx="0" cy="15" r="18" fill="#ffcc99"/>
+      <!-- Hair -->
+      <path d="M-20,-5 Q-30,10 -20,25 L-20,15 Q-25,5 -20,-5 Z" fill="#8b5a2b"/>
+      <path d="M20,-5 Q30,10 20,25 L20,15 Q25,5 20,-5 Z" fill="#8b5a2b"/>
+      <path d="M-20,-5 Q0,-25 20,-5" fill="#8b5a2b"/>
+      <!-- Arms -->
+      <line x1="-20" y1="50" x2="-40" y2="60" stroke="#ffcc99" stroke-width="10" stroke-linecap="round"/>
+      <line x1="20" y1="50" x2="40" y2="60" stroke="#ffcc99" stroke-width="10" stroke-linecap="round"/>
+      <!-- Legs -->
+      <line x1="-10" y1="90" x2="-15" y2="120" stroke="#333333" stroke-width="8" stroke-linecap="round"/>
+      <line x1="10" y1="90" x2="15" y2="120" stroke="#333333" stroke-width="8" stroke-linecap="round"/>
+      <!-- Smile -->
+      <path d="M-8,25 Q0,33 8,25" fill="none" stroke="#000000" stroke-width="2"/>
+      <!-- Eyes -->
+      <circle cx="-6" cy="12" r="2" fill="#000000"/>
+      <circle cx="6" cy="12" r="2" fill="#000000"/>
+    </g>
+    
+    <!-- Child -->
+    <g transform="translate(180, 170)">
+      <!-- Body -->
+      <rect x="-15" y="20" width="30" height="40" rx="10" ry="10" fill="#4d994d"/>
+      <!-- Head -->
+      <circle cx="0" cy="10" r="15" fill="#ffcc99"/>
+      <!-- Hair -->
+      <path d="M-15,-3 Q-20,5 -15,13 L-15,5 Q-20,-5 -15,-3 Z" fill="#ffd700"/>
+      <path d="M15,-3 Q20,5 15,13 L15,5 Q20,-5 15,-3 Z" fill="#ffd700"/>
+      <path d="M-15,-3 Q0,-10 15,-3" fill="#ffd700"/>
+      <!-- Arms -->
+      <line x1="-15" y1="35" x2="-30" y2="35" stroke="#ffcc99" stroke-width="8" stroke-linecap="round"/>
+      <line x1="15" y1="35" x2="30" y2="35" stroke="#ffcc99" stroke-width="8" stroke-linecap="round"/>
+      <!-- Legs -->
+      <line x1="-8" y1="60" x2="-10" y2="80" stroke="#333333" stroke-width="6" stroke-linecap="round"/>
+      <line x1="8" y1="60" x2="10" y2="80" stroke="#333333" stroke-width="6" stroke-linecap="round"/>
+      <!-- Smile -->
+      <path d="M-6,18 Q0,24 6,18" fill="none" stroke="#000000" stroke-width="1.5"/>
+      <!-- Eyes -->
+      <circle cx="-4" cy="8" r="2" fill="#000000"/>
+      <circle cx="4" cy="8" r="2" fill="#000000"/>
+    </g>
+  </g>
+  
+  <!-- Heart -->
+  <path d="M320,80 Q320,60 300,60 Q290,60 290,70 Q290,60 280,60 Q260,60 260,80 L260,90 L320,90 Z" fill="#ff6b6b"/>
+  <path d="M290,70 Q290,80 300,80 Q310,80 310,70" fill="#ff6b6b"/>
+</svg>
